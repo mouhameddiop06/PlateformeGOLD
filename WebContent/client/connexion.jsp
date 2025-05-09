@@ -143,7 +143,7 @@
                 <label class="form-label">
                     <i class="fas fa-phone"></i>
                     Numéro de téléphone
-                </label>
+                </label> 
                 <input type="tel" 
                        class="form-control" 
                        name="telephone" 
