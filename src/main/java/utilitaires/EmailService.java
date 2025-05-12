@@ -2,12 +2,12 @@ package utilitaires;
 
 import java.util.Properties;
 import javax.mail.*;
-import javax.mail.internet.*;
+import javax.mail.internet.*; 
 
 public class EmailService {
     private static final String USERNAME = "systemgold18@gmail.com";
     private static final String PASSWORD = "kbyr bfay omdo cfde";
-    private static final Properties props;
+    private static final Properties props;  
 
     static {
         props = new Properties();
