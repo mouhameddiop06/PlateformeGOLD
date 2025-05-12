@@ -33,7 +33,7 @@ public class SessionFilter implements Filter {
             // L'utilisateur n'est pas connecté, redirigez-le vers la page de connexion
             httpResponse.sendRedirect(httpRequest.getContextPath() + "/utilisateur/connexion.jsp");
         }
-    }
+    } 
 
     @Override
     public void destroy() {
