@@ -10,7 +10,7 @@ public class EmailSenderUtil {
         props.put("mail.smtp.auth", "true");
         props.put("mail.smtp.starttls.enable", "true");
         props.put("mail.smtp.host", "localhost");
-        props.put("mail.smtp.port", "1025");  // Port pour FakeSMTP
+        props.put("mail.smtp.port", "1025");  // Port pour FakeSMTP For mailing
 
         Session session = Session.getInstance(props, new Authenticator() {
             @Override
