@@ -26,7 +26,7 @@ public class SessionFilter implements Filter {
         String loginURI = httpRequest.getContextPath() + "/LoginServlet";
         boolean isLoginRequest = httpRequest.getRequestURI().equals(loginURI);
 
-        if (isLoggedIn || isLoginRequest) {
+        if (isLoggedIn || isLoginRequest) { 
             // L'utilisateur est connecté ou essaie de se connecter, continuez la chaîne de filtres
             chain.doFilter(request, response);
         } else {
