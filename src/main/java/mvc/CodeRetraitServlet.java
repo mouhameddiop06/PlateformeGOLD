@@ -30,7 +30,7 @@ public class CodeRetraitServlet extends HttpServlet {
             System.out.println("Erreur lors de l'initialisation du CodeRetraitDAO : " + e.getMessage());
             throw new RuntimeException("Impossible d'initialiser CodeRetraitDAO.", e);  // Assurez-vous que le servlet ne fonctionne pas sans DAO
         }
-    }
+    } 
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
