@@ -5,7 +5,8 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class ConnectDB {
+
+public class ConnectDB { 
 
     // Instance unique (singleton) de la classe ConnectDB
     private static ConnectDB instance;
