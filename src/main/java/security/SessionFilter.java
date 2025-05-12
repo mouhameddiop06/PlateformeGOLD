@@ -13,7 +13,7 @@ public class SessionFilter implements Filter {
     @Override
     public void init(FilterConfig filterConfig) throws ServletException {
         // Initialisation du filtre si nécessaire
-    }
+    } 
 
     @Override
     public void doFilter(ServletRequest request, ServletResponse response, FilterChain chain)
