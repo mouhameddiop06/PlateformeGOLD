@@ -1,5 +1,5 @@
 package metier;
-
+ 
 public class ComptePrincipalBenefice {
     private Long idBenefice;
     private double montantBenefice;
