@@ -4,7 +4,7 @@ import java.math.BigDecimal;
 import java.util.Date;
 
 public class Epargne {
-    private int idEpargne;
+    private int idEpargne; 
     private String nomEpargne;
     private Date dateCreation;
     private Date dateEcheance;
